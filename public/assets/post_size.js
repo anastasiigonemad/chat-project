@@ -1,5 +1,5 @@
 const posSize = (str) => {
-  const links = [
+  const zones = [
     "com",
     "org",
     "de",
@@ -11,15 +11,9 @@ const posSize = (str) => {
     "eu",
     "ru",
   ];
-
-  let parts = str.split(/((http|https):\/\/[a-zа-я0-9-]+\.[a-zа-я0-9-]{2,})/gi);
-  let newStr = parts[0] + parts.at(-1);
-
-  return newStr.length;
+  const string = str.split(" ");
+  let newStr = string.filter(
+    (item) => !zones.some((zone) => item.endsWith(zone))
+  );
+  return newStr.join(" ").length;
 };
-
-console.log(
-  posSize(
-    "Anastasiia hello anastasiia.com and good morning http://incurance.com"
-  )
-);
