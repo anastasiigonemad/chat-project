@@ -1,4 +1,4 @@
-const posSize = (str) => {
+export default function posSize(str) {
   const zones = [
     "com",
     "org",
@@ -16,4 +16,4 @@ const posSize = (str) => {
     (item) => !zones.some((zone) => item.endsWith(zone))
   );
   return newStr.join(" ").length;
-};
+}
