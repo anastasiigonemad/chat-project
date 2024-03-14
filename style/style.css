@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Lato";
+    src: url("/public/assets/fonts/Lato-Regular.ttf");
+}
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.main-text {
+    display: flex;
+    justify-content: center;
+}
+.main-text h1 {
+    width: 80%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.btn-registration,
+.btn-enter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.btn-registration button,
+.btn-enter button {
+    width: 90%;
+    padding: 20px;
+    font-size: 1.175em;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-registration button {
+    background-color: #0057ff;
+    color: #ffffff;
+}
+
+.btn-enter button {
+    border: 1px solid #0057ff;
+    background-color: #ffffff;
+    color: #0057ff;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.main-image img {
+    width: 100%;
+}
