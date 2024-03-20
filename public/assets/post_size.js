@@ -1,4 +1,4 @@
-export default function posSize(str) {
+export default function postSize(str) {
   const zones = [
     "com",
     "org",
