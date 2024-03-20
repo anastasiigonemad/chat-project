@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "chat-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-mocha": "^10.4.1",
+    "mocha": "^10.3.0"
+  }
+}
